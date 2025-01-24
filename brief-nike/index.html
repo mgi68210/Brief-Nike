@@ -3,155 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Nike</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <section id="s1" class="haut-de-page">
+        <header class="header">
             <div class="logo">
-                <img src="./nike/Nike logo.png" alt="logo-nike">
+              <img src="./nike/Nike logo.png" alt="Logo Nike">
             </div>
-            <div class="lien-haut-page">
-                <a href="https://www.nike.com/fr/w/nouveau-3n82y">Meilleurs ventes</a>
-                <a href="https://www.nike.com/fr/w/nouveau-3n82y">Nouvelle collection</a>
-            </div>
-            <div class="icones-en-tête">
-                <img src="./nike/Loupe.png" alt="loupe">
-                <img src="./nike/Panier.png" alt="Panier">
-            </div>
-
+            <nav class="nav">
+              <a href="#meilleures-ventes"><a href="https://www.nike.com/fr/w/nouveau-3n82y">Meilleures ventes</a>
+              <a href="#nouvelles-collections"><a href="https://www.nike.com/fr/w/nouveau-3n82y">Nouvelle collection</a>
+              <a href="#loupe"><img src="./nike/Loupe.png" alt="Loupe"></a>
+              <a href="#panier"><img src="./nike/Panier.png" alt="Panier"></a>
+            </nav>
+        </header>
+        
             
-            <section class="section1">
-                <h1>Nike</h1>
-                <h2><br>Nike</br> Plus Members Ship</h2>
-                <p>Rejoignez la plus grande équipe sportive pour profiter du meilleur de Nike.</p>
-                <img src="./nike/Chaussure centrale.png" alt="Chaussure-centrale">
-                <img src="./nike/FB.png" alt="facebook">
-                <img src="./nike/instagram.png" alt="Instagram">
-                <img src="./nike/Twitter.png" alt="Twitter">
-                <img src="./nike/photoshoesrouge.png" alt="shoes-rouge">
-                <img src="./nike/shoesblanche.png" alt="shoes-blanche">
-                <img src="./nike/shoesbleue.png" alt="shoes-bleue">
-            </section>
+        <section class="section1">
+            <div class="nike-fond">
+                <div class="textes1">
+                    <h1 class="gros-titre">Nike</h1>
+                    <h2 class="sous-titre"><b>Nike Plus</b> Members Ship</h2>
+                    <p>Rejoignez la plus grande équipe sportive pour profiter du meilleur de Nike.</p>
+                    <button class="btn-rose">Nous rejoindre</button>
+                </div>
+                <div class="reseaux">
+                    <img src="./nike/FB.png" alt="reseau">
+                    <img src="./nike/instagram.png" alt="reseau">
+                    <img src="./nike/Twitter.png" alt="reseau">
+                </div>
+                <div class="chaussures">
+                    <img src="./nike/photoshoesrouge.png" alt="shoes">
+                    <img src="./nike/shoesblanche.png" alt="shoes">
+                    <img src="./nike/shoesbleue.png" alt="shoes">
+                </div>
+            </div>
+        </section>
+        
+<hr>
+<section class="flex-container">
+    <h1 class="gros-titre2">Meilleures ventes</h1>
+    <div class="box">
+        <img src="./nike/débardeurjaune.png" alt="débardeurs-jaunes">
+        <h2>Lebron James Lakers</h2>
+        <h3>Maillot Nike NBA</h3>
+        <p>Joueur disponible</p>
+        <div class="content">
+            <p>Maillot officiel</p>
+            <h4>90€</h4>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./nike/Mannequintshirtnoir.png" alt="t-shirt-noir">
+        <h2>Nike Dri-FIT Miler</h2>
+        <h3>Haut de running</h3>
+        <p>1 couleur</p>
+        <div class="content">
+            <p>Haut performant</p>
+            <h4>30€</h4>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./nike/Tshirtfantaisie.png" alt="t-shirt-fantaisie">
+        <h2>Nike Sportswear</h2>
+        <h3>Haut à manches courtes</h3>
+        <p>1 couleur</p>
+        <div class="content">
+            <p>Confort décontracté</p>
+            <h4>40 €</h4>
+        </div>
+    </div>
+</section>
 
-        <section id="section2">
-            <img src="./nike/débardeurjaune.png" alt="débardeurs-jaunes">
-                <h1>Meilleures ventes</h1>
-                <H2>Lebron James Lakers</H2>
-                <h3>Maillot Nike NBA</h3>
-                <p> joueur disponible</p>
-                <h4> 90€</h4>
-                <img src="./nike/Mannequintshirtnoir.png" alt="t-shirt-noir">
-                <h2>Nike Drit-FIT Miler</h2>
-                <h3>Haut de running</h3>
-                <p>1 couleur</p>
-                <h4>30€</h4>
-                <img src="./nike/Tshirtfantaisie.png" alt="t-shirt-fantaisi">
-                <H2>Nike Sportswear</H2>
-                <H3>Haut à manches courtes</H3>
-                <P>1 couleur</P>
-                <H4>40 €</H4>
-            </div>
-            <div class="flexdiv flexelement2">
-                <h3>I am the third Header n2</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </section>
+<hr>
 
+    <section id="s3" class="grid">
+        <div class="box box-b1">
+                      <img src="./nike/Photomannequinpullrose.png" alt="Photo-mannequin-pull-rose">
+                      <button class="btn-join2">Voir</button>
+        </div>
+        <div class="box box-b2">
+                      <img src="./nike/Photofemmedebardeur.png" alt="Photo-femme-débardeur">
+                      <button class="btn-join2">Voir</button>
+        </div>
+        <div class="box box-b3">
+                      <img src="./nike/Photo enfant mannequin.png" alt="Photo-enfant-mannequin">
+                      <button class="btn-join2">Voir</button>
+        </div>
+        <div class="box box-b4">
+                      <img src="./nike/Photo mannequin.png" alt="Photo-mannequin">
+                      <button class="btn-join2">Voir</button>
+        </div>
+        <div class="box box-b5">
+                      <img src="./nike/Photo1mannequin.png" alt="Photo1-mannequin">
+                      <button class="btn-join2">Voir</button>
+        </div>
+        <div class="box box-b6">
+                      <img src="./nike/Photohommechaussure.png" alt="Photo-homme-chaussure">
+                      <button class="btn-join2">Voir</button>
+        </div>
+    </section>
+    <hr>
+    <!-- Footer avec les colonnes de texte -->
+    <footer class="footer">
+        <div class="columns">
+            <div class="column">
+                <ul class="no-list">
+                <li>CARTES CADEAUX</li>
+            <li>TROUVER UN MAGASIN</li>
+                <li>S'INSCRIRE AUX E-MAILS</li>
+                <li>DEVENIR MEMBRE</li>
+                <li>RÉDUCTION POUR ÉTUDIANTS</li>
+                <li>COMMENTAIRE SUR LE SITE</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul class="no-list">
+                    <li><b>AIDE</b></li>
+                    <li>Statut de commande</li>
+                    <li>Expédition et livraison</li>
+                    <li>Retours</li>
+                    <li>Modes de paiement</li>
+                    <li>Nous contacter</li>
+                    </ul>
+            </div>
+            <div class="column">
+                <ul class="no-list">
+                <li><b>À PROPOS DE NIKE</b></li>
+                <li>Actualités</li>
+                <li>Carrières</li>
+                <li>Investisseurs</li>
+                <li>Développement durable</li>
+                </ul>
+            </div>
+        </div>
 
-
-            <div class="flexdiv flexelement3">
-                <h3>I am the third Header n3</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
+        <!-- Copyright à gauche et logos sociaux à droite -->
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>©2020 Nike. Inc. Tous droits réservés</p>
             </div>
-        </section>
-        <section id="section4">
-            <div class="flexdiv flexelement1">
-                <h3>I am the third Header n1</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="./nike/FB.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="./nike/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="./nike/Twitter.png" alt="Twitter">
+                </a>
             </div>
-            <div class="flexdiv flexelement2">
-                <h3>I am the third Header n2</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement3">
-                <h3>I am the third Header n3</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-        </section>
-        <section id="section5">
-            <div class="flexdiv flexelement1">
-                <h3>I am the third Header n1</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement2">
-                <h3>I am the third Header n2</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement3">
-                <h3>I am the third Header n3</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-        </section>
-        <section id="section6">
-            <div class="flexdiv flexelement1">
-                <h3>I am the third Header n1</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement2">
-                <h3>I am the third Header n2</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement3">
-                <h3>I am the third Header n3</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-        </section>
-        <section id="section7">
-            <div class="flexdiv flexelement1">
-                <h3>I am the third Header n1</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement2">
-                <h3>I am the third Header n2</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement3">
-                <h3>I am the third Header n3</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-        </section>
-        <section id="section8">
-            <div class="flexdiv flexelement1">
-                <h3>I am the third Header n1</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement2">
-                <h3>I am the third Header n2</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-            <div class="flexdiv flexelement3">
-                <h3>I am the third Header n3</h3>
-                <p>Hello Worlds</p>
-                <img src="Assets/Image_SteamEngine.jpg" alt="Steam Engine">
-            </div>
-        </section>
-    </main>
+        </div>
+    </footer>
 </body>
 </html>
